@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rayzio-jax/express-learn/issues"
   },
-  "homepage": "https://github.com/rayzio-jax/express-learn#readme"
+  "homepage": "https://github.com/rayzio-jax/express-learn#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
