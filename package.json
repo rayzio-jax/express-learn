@@ -1,25 +1,26 @@
 {
-  "name": "express-learn",
-  "version": "1.0.0",
-  "description": "learning expressjs",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rayzio-jax/express-learn.git"
-  },
-  "keywords": [
-    "expressjs"
-  ],
-  "author": "rayzio-jax",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rayzio-jax/express-learn/issues"
-  },
-  "homepage": "https://github.com/rayzio-jax/express-learn#readme",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+	"name": "express-learn",
+	"version": "1.0.0",
+	"description": "learning expressjs",
+	"main": "app.js",
+	"scripts": {
+		"my-api": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rayzio-jax/express-learn.git"
+	},
+	"keywords": [
+		"expressjs"
+	],
+	"author": "rayzio-jax",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rayzio-jax/express-learn/issues"
+	},
+	"homepage": "https://github.com/rayzio-jax/express-learn#readme",
+	"dependencies": {
+		"express": "^4.18.2",
+		"nodemon": "^3.0.1"
+	}
 }
