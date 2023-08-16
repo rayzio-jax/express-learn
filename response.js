@@ -1,9 +1,9 @@
 const response = (statusCode, data, message, res) => {
     res.status(statusCode).json({
         payload: {
-            status_code: "",
-            datas: "",
-            message: ""
+            status_code: statusCode,
+            datas: data,
+            message: message
         },
         pagination: {
             prev: "",
