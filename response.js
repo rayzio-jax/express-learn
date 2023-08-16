@@ -3,8 +3,8 @@ const response = (statusCode, data, message, res) => {
         payload: {
             status_code: statusCode,
             datas: data,
-            message: message
         },
+        message: message,
         pagination: {
             prev: "",
             next: "",
