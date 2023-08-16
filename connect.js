@@ -6,3 +6,5 @@ const db = sql.createConnection({
     password: "",
     database: "demodbuniv"
 })
+
+module.exports = db
