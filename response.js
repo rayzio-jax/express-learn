@@ -8,7 +8,7 @@ const response = (statusCode, data, message, res) => {
         metadata: {
             prev: "",
             next: "",
-            max: ""
+            current: ""
         }
     })
 }
