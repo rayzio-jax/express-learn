@@ -4,7 +4,7 @@
 	"description": "learning expressjs",
 	"main": "app.js",
 	"scripts": {
-		"my-api": "nodemon app.js"
+		"dev": "nodemon app.js"
 	},
 	"repository": {
 		"type": "git",
