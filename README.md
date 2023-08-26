@@ -60,10 +60,10 @@ This repo is just a documentation of my lesson on learning how to use expressjs 
 
    ```
    const db = sql.createConnection({
-       host: "localhost", // your local ip / localhost
-       user: "root", // your db user (default = root)
-       password: "", // your db user password (default = none)
-       database: "demodbuniv" // your database
+       host: "[ADDRESS]", // your local ip / localhost
+       user: "[DB_USERNAME]", // your db user (default = root)
+       password: "[DB_PASSWORD]", // your db user password (default = none)
+       database: "[DATABASE]" // your database
    })
    ```
 8. Setup a response layout
